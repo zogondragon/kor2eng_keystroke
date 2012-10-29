@@ -3,6 +3,9 @@ kor2eng_keystroke
 
 Korean - English keystroke translator (for password list)
 
+OS : Linux 
+Python 2.7.3 
+Encoding : UTF-8
 
 This project is a library which translates Korean words 
 to English words by keystroke.
@@ -32,4 +35,13 @@ Language Laboratory. Finally, if I make acceptable wordlist from
 my project, then this project will be finished. 
 
 2012/10/29, ZD 
+
+
+Implementation of Python 2.7 script is completed. Now I'm finding 
+proper Korean wordlist from the Web. Maybe the list should be 
+sorted by usage frequency and some kind of length filtering will be 
+needed. For example, words with 14++ keystrokes will not be used 
+as frequently as words with 7~9 keystrokes. 
+
+2012/10/29, ZD
 
