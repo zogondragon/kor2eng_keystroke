@@ -29,7 +29,7 @@ def main():
     print libK2EK.kor_string_to_keystrokes(u"아 진짜 난 개쩌는거같다")
     print libK2EK.kor_string_to_keystrokes(u"겹모음 쌍자음 복합종성도 괜찮음")
 
-    libK2EK.kor_wordlist_to_keystrokes("sample_wordlist.txt", "output.txt")
+    libK2EK.kor_wordlist_to_keystrokes("korean_frequent_dic.txt", "korean_keystroke_wordlist.txt")
 
 if __name__ == "__main__":
     main()
